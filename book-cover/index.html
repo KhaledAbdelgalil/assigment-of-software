@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>BOOK </title>
+		<meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+		<!--google-Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+		<!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+    
+    </head>
+    
+    
+    <body>
+    		<header class="header  wow bounceIn" id="HOME">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <p><b>give information about the book to see the cover</b></p>
+                                <p>it's your own to fill all the information correctly,then press submit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    		</header>
+    		<!--the form section-->
+            <div class="container">
+     <h2 class="wow fadeInLeft">BOOK Information</h2>
+  <div class="col-md-12">
+
+    <div class="col-md-6">
+  <!--<form class="form-horizontal">-->
+
+    <div class="form-group">
+      
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="book_title" >Book title:</label>
+      <div class="col-md-9">
+        <input type="text" class="form-control wow fadeInRight" id="book_title" placeholder="Enter book-title" name="book_title"  required>
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="book-subtitle">Book-subtitle:</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control wow fadeInRight" id="book-subtitle" placeholder="Enter book-subtitle" name="book-subtitle" >
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="author-name">Author name:</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control wow fadeInRight" id="author-name" placeholder="Enter author-name" name="author-name">
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="co">Background-color:</label>
+      <div class="col-md-9">          
+        <!--<input type="text" class="form-control wow fadeInRight" id="co" placeholder="Enter background-color" name="co">-->
+        <select class="form-control wow fadeInRight" id="co">
+        <option value="white" style="background-color:white;color:white;" selected>white</option>
+
+        <option value="lightcoral" style="background-color:lightcoral;color: lightcoral;" >lightcoral</option>
+        <option value="salmon" style="background-color: salmon;color: salmon;" >salmon</option>
+        <option value="red" style="background-color: red;color: red;" >red</option>
+        <option value="darkred" style="background-color: darkred;color: darkred;" >dark-red</option>
+        <option value="pink" style="background-color: pink; color: pink;">pink</option>
+         <option value="lightpink" style="background-color: lightpink; color:lightpink;">light-pink</option>
+        <option value="hotpink" style="background-color: hotpink;color: hotpink;">hotpink</option>
+         <option value="violet" style="background-color: violet;color: violet;">violet</option>
+       <option value="purple" style="background-color: purple; color:purple;">purple</option>
+         <option value="coral" style="background-color: coral;color: coral;">coral</option>
+
+          <option value="orange" style="background-color: orange;color:orange;">orange</option>
+
+       <option value="gold" style="background-color: gold; color:gold;">gold</option>
+
+
+        <option value="yellow" style="background-color: yellow;color:yellow;">yellow</option>
+               <option value="green" style="background-color: green; color:green; color: green;">green</option>
+                      <option value="springgreen" style="background-color: springgreen; color: springgreen;">spring-green</option>
+
+       <option value="lime" style="background-color: lime; color:lime;">lime</option>
+       <option value="khaki" style="background-color: khaki; color: khaki;">khaki</option>
+              <option value="moccasin" style="background-color: moccasin; color:moccasin;">moccasin</option>
+
+       <option value="aqua" style="background-color: aqua; color:aqua;">aqua</option>
+
+       <option value="blue" style="background-color: blue; color: blue;">blue</option>
+        <option value="black" style="background-color: black; color:black;">black</option>
+
+
+       
+      </select>
+      </div>
+    </div>
+<br>
+<br>
+<div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="tco">text-color:</label>
+      <div class="col-md-9">          
+        <!--<input type="text" class="form-control wow fadeInRight" id="tco" placeholder="Enter background-color" name="tco">-->
+        <select class="form-control wow fadeInRight" id="tco">
+        <option value="white" style="background-color:white;color:white;" >white</option>
+
+        <option value="lightcoral" style="background-color:lightcoral;color: lightcoral;" >lightcoral</option>
+        <option value="salmon" style="background-color: salmon;color: salmon;" >salmon</option>
+        <option value="red" style="background-color: red;color: red;" >red</option>
+        <option value="darkred" style="background-color: darkred;color: darkred;" >dark-red</option>
+        <option value="pink" style="background-color: pink; color: pink;">pink</option>
+         <option value="lightpink" style="background-color: lightpink; color:lightpink;">light-pink</option>
+        <option value="hotpink" style="background-color: hotpink;color: hotpink;">hotpink</option>
+         <option value="violet" style="background-color: violet;color: violet;">violet</option>
+       <option value="purple" style="background-color: purple; color:purple;">purple</option>
+         <option value="coral" style="background-color: coral;color: coral;">coral</option>
+
+          <option value="orange" style="background-color: orange;color:orange;">orange</option>
+
+       <option value="gold" style="background-color: gold; color:gold;">gold</option>
+
+
+        <option value="yellow" style="background-color: yellow;color:yellow;">yellow</option>
+               <option value="green" style="background-color: green; color:green; color: green;">green</option>
+                      <option value="springgreen" style="background-color: springgreen; color: springgreen;">spring-green</option>
+
+       <option value="lime" style="background-color: lime; color:lime;">lime</option>
+       <option value="khaki" style="background-color: khaki; color: khaki;">khaki</option>
+              <option value="moccasin" style="background-color: moccasin; color:moccasin;">moccasin</option>
+
+       <option value="aqua" style="background-color: aqua; color:aqua;">aqua</option>
+
+       <option value="blue" style="background-color: blue; color: blue;">blue</option>
+        <option value="black" style="background-color: black; color:black;" selected>black</option>
+
+
+       
+      </select>
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="publisher">publisher:</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control wow fadeInRight" id="publisher" placeholder="Enter publisher" name="publisher" >
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">
+      <label class="control-label col-md-3 btn btn-warning wow fadeInLeft" for="publishing-year">publishing-year:</label>
+      <div class="col-md-9">          
+        <input type="text" class="form-control wow fadeInRight" id="publishing-year" placeholder="Enter publishing-year" name="publishing-year" >
+      </div>
+    </div>
+<br>
+<br>
+    <div class="form-group">        
+      <div class="col-md-offset-2 col-md-10">
+        <button type="submit" class="btn btn-danger wow fadeInUp " onclick="change()" >Submit</button>
+      </div>
+    </div>
+    
+
+  <!--</form>-->
+  </div>
+
+  <!--cover-->
+  <div id="cover" class="col-md-6  wow bounceInRight">
+      <p><h1 id="title">Book-title<h1></p>
+      <p> <h3 id="subtitle">book-subtitle</h3></p>
+      <p class="nothing"><br></p>
+      <p><h4 id="author">@author</h4></p>
+      <p class="nothing"><br></p>
+      <p><h5 id="publish">publisher</h5></p>
+      <p class="nothing"><br></p>
+      <p ><h6 id="year">@publishing-year</h6></p>
+      <!--just for adding spaces-->
+      <p class="nothing"><br></p>
+      <p class="nothing"><br></p>
+  </div>
+</div>
+
+</div>
+ 			<!--footer-->
+ 			<footer class="footer  wow bounceIn">
+ 				<div class="container">
+ 					<div class="row">
+ 						<div class="col-md-6">
+ 							<div id="copyright">
+ 								<p id="text">Copyright &copy:2018<a href="#">-khaled_ahmed_abdelgalil_bonus_software_enginnering</a></p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</footer>
+            <!-- JS -->
+            <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Bx Slider JS -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        
+        <!-- Add JS counter lib -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+    </body>
+
+
+</html>
