@@ -3,7 +3,7 @@
 ##  This a simple client server webpage that takes inputs from user and makes a simple book-cover and it's an assigment related to software enginnering subject.
 
 
-<h2>The project is divide into 3 parts :</h2>
+/*<h2>The project is divide into 3 parts :</h2>
 <h2>The first one :</h2>
     <p>the veilog (hard ware description language) of the PCI Bus and how the Devices will deal with Arbiter Circuit .</p>
 <h2>The Second Part :</h2> 
@@ -35,4 +35,4 @@ after you click simulate you will see the wave forms that show each signal in th
 the gui support read mode write mode for 3 transactions and 3 devices memory
 the gui support animation dynamic while drawing the waveforms 
 ## Link simuation
-[@PCI Project](https://youtu.be/sONV1r9ypZ0)<br>
+[@PCI Project](https://youtu.be/sONV1r9ypZ0)<br>*/
