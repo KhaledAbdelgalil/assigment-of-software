@@ -1,6 +1,6 @@
-<img src="images/image.png" alt="PCI BUS" width="800px">
+<img src="images/start.png" alt="PCI BUS" width="800px">
 
-## We’re Building an Open Source CI-Peripheral-Component-Interconnect
+##  This a simple client server webpage that takes inputs from user and makes a simple book-cover and it's an assigment related to software enginnering subject.
 
 
 <h2>The project is divide into 3 parts :</h2>
