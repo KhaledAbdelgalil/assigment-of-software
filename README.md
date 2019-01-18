@@ -3,7 +3,7 @@
 
 ###  This a simple client server webpage that takes inputs from user and makes a simple book-cover and it's an assigment related to software enginnering subject.
 
-##like this:
+## like this:
 <img src="imagess/1.jpg"  width="800px">
 <img src="imagess/2.jpg"  width="800px">
 <img src="imagess/3.jpg"  width="800px">
